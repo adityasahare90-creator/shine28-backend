@@ -1,1 +1,10 @@
-
+{% extends "layout.html" %}
+{% block body %}
+<div class="card">
+  <h2>Admin Login</h2>
+  <form method="post">
+    <label>Admin password: <input type="password" name="admin_pw"></label>
+    <button class="btn" type="submit">Login</button>
+  </form>
+</div>
+{% endblock %}
